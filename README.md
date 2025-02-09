@@ -87,8 +87,16 @@ The report will be generated as **`report.pdf`**.
 
 ---
 
+## **Output**  
+
+
+![Image](https://github.com/user-attachments/assets/0115ee47-da2f-42df-b5f0-c9d11c8a5315)
+
+---
+
 ## **💡 Notes**  
 ⚠️ Ensure **data.csv** exists with correct column names.  
 ⚠️ If `logo.png` is missing, remove `self.image()` in `header()`.  
+
 
 
