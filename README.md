@@ -1,95 +1,96 @@
-# AUTOMATED-REPORT-GENERATION-PDF
+
+# **AUTOMATED REPORT GENERATION (PDF)**  
 
 *COMPANY*: CODTECH IT SOLUTIONS
 
-*NAME*: JERRY PRANEETH
+*NAME*: JERRY PRANEETH 
 
-*INTERN ID*: CT6WPYS
+*INTERN ID*: CT6WPYS  
 
-*DOMAIN*: PYTHON PROGRAMMING
+*DOMAIN*: PYTHON PROGRAMMING 
 
-*DURATION*: 6 WEEEKS
+*DURATION*: 6 WEEKS  
 
-*MENTOR*: NEELA SANTOSH
+*MENTOR*: NEELA SANTOSH  
 
+---
 
-This Python script generates a Sales Analysis Report in PDF format using the fpdf library. The report provides key sales metrics, sales breakdown by product and region, and an automated summary of the latest sales data.
+## **📄 Project Overview**  
+This Python script generates a **Sales Analysis Report** in PDF format using the `fpdf` library. The report provides key sales metrics, sales breakdowns by **product and region**, and an automated summary of the latest sales data.  
 
-📌 Features
+---
 
-Generates a professional Sales Report in PDF format.
+## **🚀 Features**  
+✅ Generates a **professional** Sales Report in **PDF format**.  
+✅ Computes **Total Sales, Average Sales, and Top Product**.  
+✅ Breaks down sales data by **Product and Region**.  
+✅ Automatically formats and structures the report with **tables**.  
+✅ Adds a **company logo, title, and footer** for professionalism.  
 
-Computes Total Sales, Average Sales, and Top Product.
+---
 
-Breaks down sales data by Product and Region.
-
-Automatically formats and structures the report with tables.
-
-Adds a company logo, title, and footer for professionalism.
-
-🚀 Installation
-
-Ensure you have Python 3 installed, then install dependencies:
-
+## **⚙️ Installation**  
+Ensure you have **Python 3** installed, then install dependencies:  
+```bash
 pip install fpdf pandas
+```
 
-📂 Project Structure
+---
 
-📁 Sales_Report_Generator
-│── 📄 script.py  # Main script to generate PDF
-│── 📄 data.csv   # Sales data file (Required)
-│── 📄 report.pdf # Generated PDF Report
-│── 🖼️ logo.png   # Company logo (Optional)
+## **📂 Project Structure**  
+```
+📁 Sales_Report_Generator/
+│── 📄 script.py   # Main script to generate PDF
+│── 📄 data.csv    # Sales data file (Required)
+│── 📄 report.pdf  # Generated PDF Report
+│── 🖼️ logo.png    # Company logo (Optional)
+```
 
-📝 Usage
+---
 
-Ensure data.csv contains the required columns:
+## **📝 Usage**  
+### **Prepare the Data File**  
+Ensure `data.csv` contains the following columns:  
+- **Product** (string)  
+- **Region** (string)  
+- **Sales** (numeric)  
 
-Product (string)
-
-Region (string)
-
-Sales (numeric)
-
-Run the script:
-
+### **Run the Script**  
+```bash
 python script.py
+```
+The report will be generated as **`report.pdf`**.
 
-The report will be generated as report.pdf.
+---
 
-📊 Data Processing
+## **📊 Data Processing**  
+🔹 Reads sales data from **data.csv**.  
+🔹 Computes **Total Sales, Average Sales, and Records Count**.  
+🔹 Groups data by **Product and Region**.  
+🔹 Identifies the **Top-Performing Product**.  
 
-Reads sales data from data.csv.
+---
 
-Computes total sales, average sales, and records count.
+## **📄 PDF Report Structure**  
+📌 **Title & Logo**  
+📌 **Key Sales Metrics**  
+📌 **Regional Sales Table**  
+📌 **Product Sales Table**  
+📌 **Summary Note**  
 
-Groups data by Product and Region.
+---
 
-Identifies top-performing product.
+## **🔧 Customization**  
+🛠 Modify **header()** to change the **title and logo**.  
+🛠 Adjust **footer()** to edit **page numbering**.  
+🛠 Modify **table settings** for **custom formatting**.  
 
-📄 PDF Report Structure
+---
 
-Title & Logo
+## **💡 Notes**  
+⚠️ Ensure **data.csv** exists with correct column names.  
+⚠️ If `logo.png` is missing, remove `self.image()` in `header()`.  
 
-Key Sales Metrics
+---
 
-Regional Sales Table
-
-Product Sales Table
-
-Summary Note
-
-
-🔧 Customization
-
-Modify header() to change title and logo.
-
-Adjust footer() to edit page numbering.
-
-Modify table settings for custom formatting.
-
-💡 Notes
-
-Ensure data.csv exists with correct column names.
-
-If logo.png is missing, remove self.image() in header().
+This version improves formatting, readability, and structure. Let me know if you need any further modifications! 🚀🔥
