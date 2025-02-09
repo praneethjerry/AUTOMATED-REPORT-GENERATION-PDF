@@ -40,7 +40,7 @@ pip install fpdf pandas
 ## **📂 Project Structure**  
 ```
 📁 Sales_Report_Generator/
-│── 📄 script.py   # Main script to generate PDF
+│── 📄 main.py   # Main script to generate PDF
 │── 📄 data.csv    # Sales data file (Required)
 │── 📄 report.pdf  # Generated PDF Report
 │── 🖼️ logo.png    # Company logo (Optional)
@@ -91,6 +91,4 @@ The report will be generated as **`report.pdf`**.
 ⚠️ Ensure **data.csv** exists with correct column names.  
 ⚠️ If `logo.png` is missing, remove `self.image()` in `header()`.  
 
----
 
-This version improves formatting, readability, and structure. Let me know if you need any further modifications! 🚀🔥
